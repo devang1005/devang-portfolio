@@ -47,6 +47,13 @@ export const PROJECTS = [
       "Online stock brokerage platform for trading and investing in stocks, futures, options, commodities, currency, ETFs, mutual funds, and bonds..",
     technologies: ["React", "CSS",  "Express", "Mongodb","nodejs"],
   },
+  {
+    title: "Voting App",
+    image: project5,
+    description:
+      "Developed a robust Voting Web App backend using Node.js, Express, and MongoDB, enabling secure user authentication, real-time vote tracking, and efficient data handling.",
+    technologies: ["Nodejs","Mongodb","Express"],
+  },
 ];
 
 export const CONTACT = {

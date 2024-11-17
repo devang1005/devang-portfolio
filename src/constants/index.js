@@ -26,6 +26,7 @@ export const PROJECTS = [
     description:
       "A fully functional Whiteboard with features like pencil ,  pencil with different colors, eraser with sizes, sticky notes, sticky images and download boards .",
     technologies: ["HTML", "CSS", "javascript" ],
+    href : "https://yourwhiteboard.netlify.app/"
   },
   {
     title: "WanderWin",
@@ -33,6 +34,8 @@ export const PROJECTS = [
     description:
       "Developed a full-stack Booking web application Called WanderWin, It acts as a broker and charges a commission from each booking.",
     technologies: ["ejs", "nodejs" , "mongodb" , "expressjs"],
+    href: "https://wanderwin2-1.onrender.com/listings"
+
   },
   {
     title: "Portfolio Website",
@@ -40,6 +43,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "js", "Bootstrap"],
+    href : "https://devang.netlify.app/"
   },
   {
     title: "TradeOne ",
@@ -47,6 +51,7 @@ export const PROJECTS = [
     description:
       "Online stock brokerage platform for trading and investing in stocks, futures, options, commodities, currency, ETFs, mutual funds, and bonds..",
     technologies: ["React", "CSS",  "Express", "Mongodb","nodejs"],
+    href : "https://tradeone1.netlify.app/"
   },
   {
     title: "Voting App",
@@ -54,6 +59,7 @@ export const PROJECTS = [
     description:
       "Developed a robust Voting Web App backend using Node.js, Express, and MongoDB, enabling secure user authentication, real-time vote tracking, and efficient data handling.",
     technologies: ["Nodejs","Mongodb","Express"],
+    href : "https://voting-app-9ano.onrender.com"
   },
 ];
 

@@ -18,7 +18,7 @@ const Projects = () => {
                      initial={{opacity:0 , x:-100}} 
                      transition={{duration:1}}
                     className="w-full lg:w-1/4">
-                    <a href="https://github.com/devang1035" target="_blank" rel="noopener noreferrer">
+                    <a href={projects.href} target="_blank" rel="noopener noreferrer">
                     <img 
                     src={projects.image}
                     width={150}

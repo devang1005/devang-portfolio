@@ -6,3 +6,15 @@
 :root{
     font-family: "Inter", sans-serif;
 }
+.social-media .linkedin:hover{
+    color: rgb(60, 114, 221);
+}
+.social-media .youtube:hover{
+    color: red;
+}
+.social-media .github:hover{
+    color: white;
+}
+.social-media .twitter:hover{
+    color: white;
+}

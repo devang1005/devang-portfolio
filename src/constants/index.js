@@ -5,9 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project5.png";
 import project6 from "../assets/projects/project6.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Express js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm an AI engineer and data science student passionate about building intelligent systems and solving real-world problems with data-driven solutions. With a background in full-stack web development, I have experience working on projects that integrate AI, machine learning, and backend development.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications.  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I’m Devang Patel, an aspiring AI Engineer and  Data Science Enthusiast passionate about leveraging machine learning and data-driven solutions to solve real-world problems.  My journey began with full-stack web development, but my curiosity for AI and machine learning led me to explore the world of data-driven solutions. I specialize in  AI model development, data analytics, and automation , with experience in building intelligent systems that enhance decision-making. My projects include an AI-powered Expense Tracking System, predictive analytics models, and automation tools , utilizing  FastAPI, Python, Pandas, and deep learning frameworks. Constantly exploring cutting-edge AI technologies, I strive to innovate and contribute to the evolving world of artificial intelligence. Let’s connect and create impactful solutions! 🚀    `;
 
 export const EXPERIENCES = [
   {
@@ -22,53 +22,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Whiteboard Web Application",
+    title: "Expense Tracking System",
     image: project1,
     description:
-      "A fully functional Whiteboard with features like pencil ,  pencil with different colors, eraser with sizes, sticky notes, sticky images and download boards .",
-    technologies: ["HTML", "CSS", "javascript" ],
-    href : "https://yourwhiteboard.netlify.app/"
-  },
-  {
-    title: "WanderWin",
-    image: project2,
-    description:
-      "Developed a full-stack Booking web application Called WanderWin, It acts as a broker and charges a commission from each booking.",
-    technologies: ["ejs", "nodejs" , "mongodb" , "expressjs"],
-    href: "https://wanderwin2-1.onrender.com/listings"
-
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "js", "Bootstrap"],
-    href : "https://devang.netlify.app/"
-  },
-  {
-    title: "TradeOne ",
-    image: project4,
-    description:
-      "Online stock brokerage platform for trading and investing in stocks, futures, options, commodities, currency, ETFs, mutual funds, and bonds..",
-    technologies: ["React", "CSS",  "Express", "Mongodb","nodejs"],
-    href : "https://tradeone1.netlify.app/"
-  },
-  {
-    title: "Voting App",
-    image: project5,
-    description:
-      "Developed a robust Voting Web App backend using Node.js, Express, and MongoDB, enabling secure user authentication, real-time vote tracking, and efficient data handling.",
-    technologies: ["Nodejs","Mongodb","Express"],
-    href : "https://voting-app-9ano.onrender.com"
-  },
-  {
-    title: "BachelorBase",
-    image: project6,
-    description:
-      "Finding the perfect accommodation for bachelors made easy. Browse, list, and connect with property owners directly.",
-    technologies: ["Nodejs","Mongodb","Express"],
-    href : "https://bachelorbase.vercel.app/"
+      "An Expense Tracking System is a web application that allows users to manage their personal or business expenses effectively. This project is built using Python and utilizes several powerful packages to ensure a robust and efficient solution.",
+    technologies: ["Python", "Sql", "streamlit" ],
+    href : "https://github.com/devang1035/Expense-Tracking-System"
   },
 ];
 

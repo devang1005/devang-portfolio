@@ -1,7 +1,7 @@
 import Aboutimg from "../assets/about.jpg";
 import {ABOUT_TEXT} from "../constants";
 import { motion } from "framer-motion";
-import Profilepic from "../assets/devangpic.png";
+import Profilepic from "../assets/Untitled 9.png";
 
 const About = () => {
   return (

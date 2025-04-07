@@ -29,6 +29,14 @@ export const PROJECTS = [
     technologies: ["Python", "Sql", "streamlit" ],
     href : "https://github.com/devang1035/Expense-Tracking-System"
   },
+  {
+    title: "Healthcare Premium Prediction App",
+    image: project3,
+    description:
+      "This app predicts health insurance premiums based on user inputs like age, BMI, smoking status, and more — using an XGBoost model for high accuracy.",
+    technologies: ["Python", "pandas","numpy","streamlit","scikit-learn" ],
+    href : "https://healthpremium.streamlit.app/"
+  }
 ];
 
 export const CONTACT = {

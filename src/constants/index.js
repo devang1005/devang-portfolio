@@ -36,6 +36,14 @@ export const PROJECTS = [
       "This app predicts health insurance premiums based on user inputs like age, BMI, smoking status, and more — using an XGBoost model for high accuracy.",
     technologies: ["Python", "pandas","numpy","streamlit","scikit-learn" ],
     href : "https://healthpremium.streamlit.app/"
+  },
+  {
+    title: "Credit risk modeling prediction",
+    image: project4,
+    description:
+      "A user-friendly Streamlit web application that predicts credit risk using machine learning models. Built using powerful tools like `scikit-learn`, `XGBoost`, and designed for easy deployment and interpretability.",
+    technologies: ["Python", "pandas","numpy","streamlit","scikit-learn" ],
+    href : "https://creditcardfinance.streamlit.app/"
   }
 ];
 

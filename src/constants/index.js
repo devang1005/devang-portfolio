@@ -5,9 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project5.png";
 import project6 from "../assets/projects/project6.png";
 
-export const HERO_CONTENT = `I'm an AI engineer and data science student passionate about building intelligent systems and solving real-world problems with data-driven solutions. With a background in full-stack web development, I have experience working on projects that integrate AI, machine learning, and backend development.`;
+export const HERO_CONTENT = `Turning data into decisions — I'm a Data Analyst and Data Scientist with a passion for uncovering insights, building intelligent models, and helping businesses grow through the power of data.`;
 
-export const ABOUT_TEXT = `I’m Devang Patel, an aspiring AI Engineer and  Data Science Enthusiast passionate about leveraging machine learning and data-driven solutions to solve real-world problems.  My journey began with full-stack web development, but my curiosity for AI and machine learning led me to explore the world of data-driven solutions. I specialize in  AI model development, data analytics, and automation , with experience in building intelligent systems that enhance decision-making. My projects include an AI-powered Expense Tracking System, predictive analytics models, and automation tools , utilizing  FastAPI, Python, Pandas, and deep learning frameworks. Constantly exploring cutting-edge AI technologies, I strive to innovate and contribute to the evolving world of artificial intelligence. Let’s connect and create impactful solutions! 🚀    `;
+export const ABOUT_TEXT = `I am a data-driven professional with hands-on experience in both Data Analysis and Data Science, skilled at transforming raw data into actionable insights and building predictive models to drive strategic decisions. With a strong foundation in statistics, Python, SQL, and machine learning, I’ve worked on end-to-end data projects — from data cleaning and visualization to model development and deployment. My analytical mindset, combined with a passion for solving real-world problems, enables me to uncover trends, automate workflows, and contribute to data-informed business growth. I thrive in collaborative environments and am always eager to explore innovative ways to leverage data for impact.    `;
 
 export const EXPERIENCES = [
   {

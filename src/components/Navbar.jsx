@@ -1,4 +1,4 @@
-import { FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 
@@ -12,7 +12,7 @@ const Navbar = () => {
           <a href='https://www.linkedin.com/in/devang-patel-5708a526b/' className='linkedin'> <FaLinkedin/></a> 
           <a href='https://github.com/devang1035' className='github'> <FaGithub /></a> 
           <a href='https://x.com/DevangPate70521' className='twitter'><FaSquareXTwitter /></a> 
-          <a href='https://youtube.com/@devang-dev?si=tPR5E_iHfTo-3IHW' className='youtube'> <FaYoutube /></a>     
+          <a href='https://www.instagram.com/devang_1005/?next=%2F' className='instagram'> <FaInstagram /></a>     
         </div>
     </nav>
   )

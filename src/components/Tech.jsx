@@ -1,6 +1,7 @@
 import { SiSqlite } from "react-icons/si";
 import { SiPytorch } from "react-icons/si";
 import { motion } from "framer-motion";
+import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
 
 const iconvarriant = (duration) =>({
     initial:{y:-10},
@@ -52,6 +53,9 @@ const Tech = () => {
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
                 <SiPytorch className="text-7xl text-orange-500" />
+            </motion.div>
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                <PiMicrosoftExcelLogoFill className="text-7xl text-green-600" />
             </motion.div>
     
         </div>

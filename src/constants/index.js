@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/emoji.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project5.png";
@@ -21,6 +21,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Emotion Classifier",
+    image: project2,
+    description:
+      "The Emotion Classifier is an intelligent NLP-based application that detects human emotions from text inputs using machine learning. It helps determine whether a given sentence expresses joy, sadness, anger, fear, love, or surprise, and displays an appropriate emoji for better visual feedback.",
+    technologies: ["Python", "NLP", "streamlit", "Scikit-learn", "HuggingFace"],
+    href : "https://emotion-classifier-model.streamlit.app/"
+  },
   {
     title: "Expense Tracking System",
     image: project1,

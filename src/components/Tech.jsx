@@ -2,6 +2,7 @@ import { SiSqlite } from "react-icons/si";
 import { SiPytorch } from "react-icons/si";
 import { motion } from "framer-motion";
 import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
+import { SiScikitlearn } from "react-icons/si";
 
 const iconvarriant = (duration) =>({
     initial:{y:-10},
@@ -34,7 +35,7 @@ const Tech = () => {
                 </svg>
             </motion.div>
             <motion.div variants={iconvarriant(3)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
-                <SiSqlite className="text-7xl text-blue-400"/>
+                 <img src="src/assets/MySQL.svg" alt="icon" className="w-16 h-16" />
             </motion.div> 
             <motion.div variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48">
@@ -55,7 +56,13 @@ const Tech = () => {
                 <SiPytorch className="text-7xl text-orange-500" />
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
-                <PiMicrosoftExcelLogoFill className="text-7xl text-green-600" />
+                 <img src="src/assets/icons8-excel.svg" alt="icon" className="w-16 h-16" />
+            </motion.div>
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                <img src="src/assets/scikit-learn.svg" alt="icon" className="w-16 h-16" />
+            </motion.div>
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                <img src="src/assets/power-bi-icon.svg" alt="icon" className="w-16 h-16" />
             </motion.div>
     
         </div>

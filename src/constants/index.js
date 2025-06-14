@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/emoji.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import ex1 from "../assets/projects/ex-1.jpeg";
+import ex2 from "../assets/projects/ex-2.png";
 
 export const HERO_CONTENT = `Turning data into decisions — I'm a Data Analyst and Data Scientist with a passion for uncovering insights, building intelligent models, and helping businesses grow through the power of data.`;
 
@@ -9,22 +11,22 @@ export const ABOUT_TEXT = `I am a data-driven professional with hands-on experie
 
 export const EXPERIENCES = [
    {
-    image: project3,
+    image: ex1,
     role: "Data Science Intern",
     company: "Atliq Technology",
     description: `Designed and developed user interfaces for web applications using Html , css and js. Worked closely with backend developers to integrate frontend components with APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["Python", "sql", "Data Visulization", "machine learning","Deep learning"],
     year:"May 2025 - June 2025",
-    href : "https://emotion-classifier-model.streamlit.app/",
+    href : "https://www.atliq.com/",
   },
   {
-    image: project1,
+    image: ex2,
     role: "Frontend Developer Intern",
     company: "Electroweb Solutions",
     description: `Designed and developed user interfaces for web applications using Html , css and js. Worked closely with backend developers to integrate frontend components with APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "js", "mySQL"],
     year:"April 2024 - May 2024",
-    href : "https://emotion-classifier-model.streamlit.app/",
+    href : "https://www.electroweb.in/",
   },
 
   

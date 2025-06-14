@@ -2,21 +2,31 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/emoji.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project5.png";
-import project6 from "../assets/projects/project6.png";
 
 export const HERO_CONTENT = `Turning data into decisions — I'm a Data Analyst and Data Scientist with a passion for uncovering insights, building intelligent models, and helping businesses grow through the power of data.`;
 
 export const ABOUT_TEXT = `I am a data-driven professional with hands-on experience in both Data Analysis and Data Science, skilled at transforming raw data into actionable insights and building predictive models to drive strategic decisions. With a strong foundation in statistics, Python, SQL, and machine learning, I’ve worked on end-to-end data projects — from data cleaning and visualization to model development and deployment. My analytical mindset, combined with a passion for solving real-world problems, enables me to uncover trends, automate workflows, and contribute to data-informed business growth. I thrive in collaborative environments and am always eager to explore innovative ways to leverage data for impact.    `;
 
 export const EXPERIENCES = [
+   {
+    image: project3,
+    role: "Data Science Intern",
+    company: "Atliq Technology",
+    description: `Designed and developed user interfaces for web applications using Html , css and js. Worked closely with backend developers to integrate frontend components with APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["Python", "sql", "Data Visulization", "machine learning","Deep learning"],
+    year:"May 2025 - June 2025",
+    href : "https://emotion-classifier-model.streamlit.app/",
+  },
   {
-    year: "March 2024 - May 2024",
+    image: project1,
     role: "Frontend Developer Intern",
     company: "Electroweb Solutions",
     description: `Designed and developed user interfaces for web applications using Html , css and js. Worked closely with backend developers to integrate frontend components with APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "js", "mySQL"],
+    year:"April 2024 - May 2024",
+    href : "https://emotion-classifier-model.streamlit.app/",
   },
+
   
 ];
 

@@ -13,14 +13,22 @@ const Experience = () => {
     <div>
     {EXPERIENCES.map((experience , index)=>(
         <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div  
+             <motion.div  
             whileInView={{opacity:1 , x:0}} 
             initial={{opacity:0 , x:-100}} 
             transition={{duration:1}} 
             className="w-full lg:w-1/4">
+            <a href={experience.href} target="_blank" rel="noopener noreferrer">
+             <img 
+                    src={experience.image}
+                    width={150}
+                    height={150}
+                    className="mb-6 rounded"
+                />
+            </a>
             <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
             </motion.div>
-            <motion.div 
+             <motion.div 
              whileInView={{opacity:1 , x:0}} 
              initial={{opacity:0 , x:100}} 
              transition={{duration:1}}
@@ -35,6 +43,8 @@ const Experience = () => {
                     </span>
                 ))}
             </motion.div>
+           
+           
         </div>
     ))}
     </div>

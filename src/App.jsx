@@ -5,6 +5,7 @@ import Tech from "./components/Tech";
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Certificates from './components/Certificates';
 
 const App = () => {
   return (
@@ -16,8 +17,10 @@ const App = () => {
       <Navbar/>
       <Hero />
       <About />
+      <Experience />
       <Tech />
       <Projects />
+      <Certificates/>
       <Contact />
       </div>
     </div>

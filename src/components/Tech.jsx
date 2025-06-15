@@ -3,6 +3,10 @@ import { SiPytorch } from "react-icons/si";
 import { motion } from "framer-motion";
 import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
 import { SiScikitlearn } from "react-icons/si";
+import scikit from "../assets/scikit-learn.svg";
+import powerbi from "../assets/power-bi-icon.svg";
+import excel from "../assets/icons8-excel.svg";
+import tensorflow from "../assets/TensorFlow_logo.svg";
 
 const iconvarriant = (duration) =>({
     initial:{y:-10},
@@ -56,12 +60,17 @@ const Tech = () => {
                 <SiPytorch className="text-7xl text-orange-500" />
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
-                 <PiMicrosoftExcelLogoFill className="text-7xl text-green-500" />
+                <img src={excel} alt="excel" width='80' height='30'/>
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
-                <SiScikitlearn className="text-7xl text-black-500" />
+                 <img src={scikit} alt="scikit" width='80' height='30'/>
             </motion.div>
-
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={powerbi} alt="powerbi" width='80' height='30'/>
+            </motion.div>
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={tensorflow} alt="tensorflow" width='100' height='30'/>
+            </motion.div>
         </div>
     </div>
   )

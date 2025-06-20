@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/emoji.png";
+import project2 from "../assets/projects/farm.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/emoji.png";
 import ex1 from "../assets/projects/ex-1.jpeg";
 import ex2 from "../assets/projects/ex-2.png";
 
@@ -34,8 +35,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Emotion Classifier",
+    title: "Crop Recommendation System",
     image: project2,
+    description:
+      "a Crop Recommendation System built with Python, Machine Learning, and Streamlit, aimed at helping farmers choose the most suitable crop based on soil and climate data.",
+    technologies: ["Python", "pandas", "streamlit", "Scikit-learn", "numpy"],
+    href : "https://crop-recomandation.streamlit.app/"
+  },
+  {
+    title: "Emotion Classifier",
+    image: project5,
     description:
       "The Emotion Classifier is an intelligent NLP-based application that detects human emotions from text inputs using machine learning. It helps determine whether a given sentence expresses joy, sadness, anger, fear, love, or surprise, and displays an appropriate emoji for better visual feedback.",
     technologies: ["Python", "NLP", "streamlit", "Scikit-learn", "HuggingFace"],

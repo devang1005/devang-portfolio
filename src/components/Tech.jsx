@@ -7,6 +7,7 @@ import scikit from "../assets/scikit-learn.svg";
 import powerbi from "../assets/power-bi-icon.svg";
 import excel from "../assets/icons8-excel.svg";
 import tensorflow from "../assets/TensorFlow_logo.svg";
+import huggingface from "../assets/hugging.svg";
 
 const iconvarriant = (duration) =>({
     initial:{y:-10},
@@ -70,6 +71,9 @@ const Tech = () => {
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
                  <img src={tensorflow} alt="tensorflow" width='100' height='30'/>
+            </motion.div>
+            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={huggingface} alt="huggingface" width='80' height='30'/>
             </motion.div>
         </div>
     </div>

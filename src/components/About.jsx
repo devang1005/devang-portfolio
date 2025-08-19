@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 // Import 3 images
-import Pic1 from "../assets/devang2.png";
-import Pic2 from "../assets/my_pic.jpeg";
-import Pic3 from "../assets/devangpic.png";
+import Pic3 from "../assets/devang34.png";
+import Pic2 from "../assets/devangpic.png";
+import Pic1 from "../assets/devang23.png";
 
 const images = [Pic1, Pic2, Pic3];
 

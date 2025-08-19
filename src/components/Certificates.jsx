@@ -28,20 +28,22 @@ const Certificates = () => {
           transition={{
             repeat: Infinity,
             repeatType: "loop",
-            duration: 30, // speed of scroll (increase = slower)
+            duration: 30,
             ease: "linear",
           }}
         >
           {[...images, ...images].map((img, index) => (
             <div
               key={index}
-              className="flex-shrink-0 rounded-2xl border-4 border-neutral-800 p-4 bg-neutral-900 shadow-lg"
-              style={{ width: "400px" }}
+              className="flex-shrink-0 rounded-2xl border border-neutral-700 p-3 bg-neutral-900/60 shadow-lg backdrop-blur-sm"
+              style={{
+                width: "clamp(250px, 30vw, 400px)", // responsive width
+              }}
             >
               <img
                 src={img}
                 alt={`certificate-${index}`}
-                className="rounded-lg"
+                className="rounded-lg w-full h-auto object-contain"
               />
             </div>
           ))}

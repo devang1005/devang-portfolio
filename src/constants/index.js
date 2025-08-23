@@ -79,6 +79,6 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Gujarat , India ",
   phoneNo: "+91 9662331035 ",
-  email: "devangpatel10505@gmail.com",
+  email: "devangpatel572@gmail.com",
   resume : "resume",
 };

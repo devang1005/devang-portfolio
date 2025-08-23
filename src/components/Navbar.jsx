@@ -9,10 +9,10 @@ const Navbar = () => {
             <h1 className='mx-2 w-10 font-bold text-2xl font-serif'>DP</h1>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-xl social-media'>
-          <a href='https://www.linkedin.com/in/devang-patel-5708a526b/' className='linkedin'> <FaLinkedin/></a> 
-          <a href='https://github.com/devang1035' className='github'> <FaGithub /></a> 
+          <a href='https://www.linkedin.com/in/devang-ai/' className='linkedin'> <FaLinkedin/></a> 
+          <a href='https://github.com/devang1005' className='github'> <FaGithub /></a> 
           <a href='https://x.com/DevangPate70521' className='twitter'><FaSquareXTwitter /></a> 
-          <a href='https://www.instagram.com/devang_1005/?next=%2F' className='instagram'> <FaInstagram /></a>     
+          <a href='https://www.instagram.com/devangpatel.ai/?next=%2Fdevang_1005%2F' className='instagram'> <FaInstagram /></a>     
         </div>
     </nav>
   )

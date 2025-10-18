@@ -20,15 +20,6 @@ export const EXPERIENCES = [
     year:"May 2025 - June 2025",
     href : "https://www.atliq.com/",
   },
-  {
-    image: ex2,
-    role: "Frontend Developer Intern",
-    company: "Electroweb Solutions",
-    description: `Designed and developed user interfaces for web applications using Html , css and js. Worked closely with backend developers to integrate frontend components with APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "js", "mySQL"],
-    year:"April 2024 - May 2024",
-    href : "https://www.electroweb.in/",
-  },
 
   
 ];

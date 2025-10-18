@@ -12,7 +12,6 @@ const Navbar = () => {
           <a href='https://www.linkedin.com/in/devang-ai/' className='linkedin'> <FaLinkedin/></a> 
           <a href='https://github.com/devang1005' className='github'> <FaGithub /></a> 
           <a href='https://x.com/DevangPate70521' className='twitter'><FaSquareXTwitter /></a> 
-          <a href='https://www.instagram.com/devangpatel.ai/?next=%2Fdevang_1005%2F' className='instagram'> <FaInstagram /></a>     
         </div>
     </nav>
   )

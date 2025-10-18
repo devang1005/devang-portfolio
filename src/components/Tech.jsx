@@ -8,6 +8,15 @@ import powerbi from "../assets/power-bi-icon.svg";
 import excel from "../assets/icons8-excel.svg";
 import tensorflow from "../assets/TensorFlow_logo.svg";
 import huggingface from "../assets/hugging.svg";
+import Postgresql from "../assets/PostgresSQL.svg";
+import sqllite from "../assets/SQLite.svg";
+import streamlit from "../assets/Streamlit.svg";
+import docker from "../assets/Docker.svg";
+import git from "../assets/Git.svg";
+import aws from "../assets/AWS.svg";
+import azure from "../assets/Azure.svg";
+import github from "../assets/GitHub.svg";
+import flask from "../assets/Flask.svg";
 
 const iconvarriant = (duration) =>({
     initial:{y:-10},
@@ -61,9 +70,6 @@ const Tech = () => {
                 <SiPytorch className="text-7xl text-orange-500" />
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
-                <img src={excel} alt="excel" width='80' height='30'/>
-            </motion.div>
-            <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
                  <img src={scikit} alt="scikit" width='80' height='30'/>
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
@@ -74,6 +80,33 @@ const Tech = () => {
             </motion.div>
             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
                  <img src={huggingface} alt="huggingface" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={Postgresql} alt="Postgresql" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={sqllite} alt="sqllite" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={streamlit} alt="streamlit" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={docker} alt="docker" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={git} alt="git" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={aws} alt="aws" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={azure} alt="azure" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={github} alt="github" width='80' height='30'/>
+            </motion.div>
+             <motion.div  variants={iconvarriant(5)} animate="animate" initial="initial" className="rounded-2xl border-4 p-4 border-neutral-800">
+                 <img src={flask} alt="flask" width='80' height='30'/>
             </motion.div>
         </div>
     </div>

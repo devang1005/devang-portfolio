@@ -4,10 +4,11 @@ import profile3 from "../assets/projects/certi-3.png";
 import profile4 from "../assets/projects/certi-4.png";
 import profile5 from "../assets/projects/certi-5.png";
 import profile6 from "../assets/projects/certi-6.png";
+import profile7 from "../assets/projects/UC-851f95a3-29fd-4c65-9d41-38bab6ed8194.jpg";
 import { motion } from "framer-motion";
 
 const Certificates = () => {
-  const images = [profile1, profile2, profile3, profile4, profile5, profile6];
+  const images = [profile1,profile5, profile2, profile7 , profile3, profile4, profile6];
 
   return (
     <div className="border-b border-neutral-800 pb-24">
